@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7EE9F8"
+    tools:context=".Information2">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="265dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#7EE9F8"
+        android:text="Congratulations            LOGIN SUCCESSFUL"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.169" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="174dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#E597F3"
+        android:text="Add Information"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="175dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="#E787AF"
+        android:text="View Information"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="175dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#AA00FF"
+        android:text="Search Information"
+        app:layout_constraintRight_toRightOf="@+id/button8"
+        app:layout_constraintStart_toStartOf="@+id/button8"
+        app:layout_constraintTop_toBottomOf="@+id/button8" />
+</androidx.constraintlayout.widget.ConstraintLayout>
